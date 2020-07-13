@@ -10,11 +10,11 @@
   --cyan: #00FFFF;
   --blue: #007bff;
   --violet: #9900FF;
-  --font-light: bandeins_strangelight;
-  --font-regular: bandeins_strangeregular;
-  --font-bold: bandeins_strangebold;
-  --font-medium: bandeins_strangemedium;
-  --font-semibold: bandeins_strangesemi_bold;
+  --font-light: MuseoModerno-Light;
+  --font-regular: MuseoModerno-Regular;
+  --font-bold: MuseoModerno-Bold;
+  --font-medium: MuseoModerno-Medium;
+  --font-semibold: MuseoModerno-SemiBold;
   --font-var: bandeins_strangeSBdExfull;
   --font-varbold: bandeins_strangeBdExfull;
 }
@@ -77,6 +77,42 @@
     font-style: normal;
 
 }
+
+@font-face {
+    font-family: 'MuseoModerno-Bold';
+    src: url('../css/fonts/MuseoModerno-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MuseoModerno-Regular';
+    src: url('../css/fonts/MuseoModerno-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MuseoModerno-SemiBold';
+    src: url('../css/fonts/MuseoModerno-SemiBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MuseoModerno-Light';
+    src: url('../css/fonts/MuseoModerno-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MuseoModerno-Medium';
+    src: url('../css/fonts/MuseoModerno-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 html {
 scroll-behavior: smooth;
@@ -172,7 +208,7 @@ a:hover.sottolineatura {
 
 .card-text.names {
   font-family: var(--font-regular);
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   line-height: 1.9rem;
   padding: 3rem 6rem 0 8rem;
 }

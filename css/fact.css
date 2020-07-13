@@ -10,11 +10,11 @@
   --cyan: #00FFFF;
   --blue: #007bff;
   --violet: #9900FF;
-  --font-light: bandeins_strangelight;
-  --font-regular: bandeins_strangeregular;
-  --font-bold: bandeins_strangebold;
-  --font-medium: bandeins_strangemedium;
-  --font-semibold: bandeins_strangesemi_bold;
+  --font-light: MuseoModerno-Light;
+  --font-regular: MuseoModerno-Regular;
+  --font-bold: MuseoModerno-Bold;
+  --font-medium: MuseoModerno-Medium;
+  --font-semibold: MuseoModerno-SemiBold;
   --font-var: bandeins_strangeSBdExfull;
   --font-varbold: bandeins_strangeBdExfull;
   --font-varhalf: bandeins_strangeBdExhalf;
@@ -22,7 +22,7 @@
 
 p {
   font-size: 2rem;
-  font-family: bandeinsstrangeregular;
+  font-family: MuseoModerno-Regular;
   margin: 0;
 }
 
@@ -142,6 +142,41 @@ a:hover {
 
 }
 
+@font-face {
+    font-family: 'MuseoModerno-Bold';
+    src: url('../css/fonts/MuseoModerno-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MuseoModerno-Regular';
+    src: url('../css/fonts/MuseoModerno-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MuseoModerno-SemiBold';
+    src: url('../css/fonts/MuseoModerno-SemiBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MuseoModerno-Light';
+    src: url('../css/fonts/MuseoModerno-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MuseoModerno-Medium';
+    src: url('../css/fonts/MuseoModerno-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .db-r {
   font-family: var(--font-var);
   font-size: 180%;
@@ -217,7 +252,7 @@ a:hover {
 .cls-10 {
   font-size: 40px;
   fill: #1d1d1b;
-  font-family: BandeinsStrangeBold, Bandeins Strange;
+  font-family: MuseoModerno-Bold, MuseoModerno;
 }
 
 .cls-11 {
@@ -240,7 +275,7 @@ a:hover {
 .cls-17 {
   fill: #000;
   stroke: #fff;
-  stroke-width: 1px;
+  stroke-width: 1.5px;
 }
 
 .cls-13 {
@@ -468,7 +503,7 @@ a:hover {
 .cls-50,
 .cls-45 {
   font-size: 40px;
-  font-family: BandeinsStrangeSemiBold, Bandeins Strange;
+  font-family: MuseoModerno-SemiBold, Museo Moderno;
 }
 
 .cls-46 {
@@ -492,11 +527,11 @@ a:hover {
 }
 
 .cls-100 {
-  font-family: bandeinsstrangelight;
+  font-family: MuseoModerno-Light;
 }
 
 .cls-101{
-  font-family: bandeins_strangebold;
+  font-family: MuseoModerno-Bold;
 }
 
 .cls-104 {

@@ -10,10 +10,14 @@
   --cyan: #00FFFF;
   --blue: #007bff;
   --violet: #9900FF;
-  --font-light: bandeins_strangelight;
-  --font-regular: bandeins_strangeregular;
-  --font-bold: bandeins_strangebold;
-  --font-medium: bandeins_strangemedium;
+  --font-light: MuseoModerno-Light;
+  --font-regular: MuseoModerno-Regular;
+  --font-bold: MuseoModerno-Bold;
+  --font-medium: MuseoModerno-Medium;
+  --font-semibold: MuseoModerno-SemiBold;
+  --font-var: bandeins_strangeSBdExfull;
+  --font-varbold: bandeins_strangeBdExfull;
+  --font-varhalf: bandeins_strangeBdExhalf;
 }
 
 p {
@@ -86,6 +90,41 @@ a:hover {
     url('../css/fonts/bandeinsstrangemedium-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
+}
+
+@font-face {
+    font-family: 'MuseoModerno-Bold';
+    src: url('../css/fonts/MuseoModerno-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MuseoModerno-Regular';
+    src: url('../css/fonts/MuseoModerno-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MuseoModerno-SemiBold';
+    src: url('../css/fonts/MuseoModerno-SemiBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MuseoModerno-Light';
+    src: url('../css/fonts/MuseoModerno-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MuseoModerno-Medium';
+    src: url('../css/fonts/MuseoModerno-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 /* testo che scorre */
@@ -164,7 +203,7 @@ a:hover {
 }
 
 .boldd {
-  font-family: bandeins_strangemedium;
+  font-family: var(--font-medium);
 }
 
 /* elementi principali */
@@ -424,7 +463,7 @@ a:hover {
 .cls-13,
 .cls-14 {
   font-size: 25px;
-  font-family: var(--font-semibold);
+  font-family: var(--font-medium);
 }
 
 .cls-10 {
