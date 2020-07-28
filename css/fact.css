@@ -564,14 +564,15 @@ a:hover {
 }
 
 #next1 {
-  width: 60%;
+  width: 90%;
   height: auto;
   z-index: 100;
+  margin-left: 3rem;
   cursor: pointer;
 }
 
 #end1 {
-  width: 60%;
+  width: 90%;
   height: auto;
   z-index: 100;
   cursor: pointer;
@@ -603,10 +604,9 @@ a:hover {
 }
 
 .buttons {
-  width: 20%;
+  width: 120%;
   float: right;
   position: fixed;
-  left: 79%;
 }
 
 /* Transizione */
